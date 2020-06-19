@@ -23,7 +23,7 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	color: #6B6B6B;
 	word-break: break-word;
-	-webkit-font-smoothing: antialiased;	
+	-webkit-font-smoothing: antialiased;
 }
 h1,
 h2,
@@ -36,7 +36,7 @@ h6 {
 	font-weight: 400;
 }
 #page {
-	display: none;	
+	display: none;
 	-webkit-animation: fadein 0.5s;
 	animation: fadein 0.5s;
 }
@@ -127,27 +127,30 @@ Menus
 	position: relative;
 	padding: 10px;
 	font-size: 18px;
-	border: 2px solid #fff;
 	margin-right: 10px;
 	text-transform: uppercase;
 	-webkit-transition: all 0.3s;
 	transition: all 0.3s;
 }
-.main-navigation li:hover {
-	background-color: #fff;
-}
+
 .main-navigation a {
 	display: block;
 	text-decoration: none;
 	color: #fff;
+	border: 2px solid #fff;
+	padding: 10px;
 }
-.main-navigation li:first-child {
+
+.main-navigation a:hover {
+	background-color: #fff;
+}
+
+.main-navigation li:first-child a {
 	background-color: #fff;
 	cursor: pointer;
-}
-.main-navigation li:first-child a {
 	color: #323232;
 }
+
 .locale-button {
 	margin-left: 20px;
 	background-color: #fff;
@@ -177,7 +180,7 @@ Menus
 	background-color: rgba(19, 19, 19, 0.8);
 }
 
-.main-navigation li:hover > a {
+.main-navigation li a:hover {
 		color: #2E2E2E;
 }
 .main-navigation ul ul :hover > a {
@@ -582,7 +585,7 @@ Comments
 	border: 1px solid #2e2e2e;
 	font-size: 12px;
 	-webkit-transition: all 0.4s;
-	transition: all 0.4s;	
+	transition: all 0.4s;
 }
 a.comment-reply-link {
 	color: #505050;
@@ -820,7 +823,7 @@ Structure
 	padding: 0 !important;
 }
 .panel-row-style {
-	display: block;			    
+	display: block;
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-attachment: fixed;
@@ -850,7 +853,7 @@ Front page blocks
 .panel.widget {
 	padding: 0 30px 90px;
 	overflow: hidden;
-	margin: 0 auto;	
+	margin: 0 auto;
 }
 .entry-content {
 	clear: both;
@@ -894,7 +897,7 @@ Front page blocks
 	padding: 10px;
 	width: 50px;
 	color: #2E2E2E;
-	border: 2px solid #2E2E2E;	
+	border: 2px solid #2E2E2E;
 	text-align: center;
 	margin-right: 15px;
 }
@@ -913,7 +916,7 @@ Front page blocks
 	text-transform: uppercase;
 	font-family: 'Open Sans Condensed', sans-serif;
 	-webkit-transition: all 0.3s;
-	transition: all 0.3s;	
+	transition: all 0.3s;
 }
 .wpcf7-submit {
 	clear: both;
@@ -935,13 +938,13 @@ Front page blocks
 	color: #fff;
 	text-decoration: none;
 }
-.service-desc:first-letter { 
-	float: left; 
-	color: #2E2E2E; 
-	font-size: 50px; 
-	line-height: 65px; 
-	padding-top: 5px; 
-	padding-right: 10px; 
+.service-desc:first-letter {
+	float: left;
+	color: #2E2E2E;
+	font-size: 50px;
+	line-height: 65px;
+	padding-top: 5px;
+	padding-right: 10px;
 }
 /* Facts */
 .facts-area .col-md-3 {
@@ -1027,7 +1030,7 @@ Front page blocks
 	font-size: 20px;
 }
 .employee-social a {
-	margin-right: 10px;	
+	margin-right: 10px;
 }
 .employee-social a:last-of-type {
 	margin-right: 0;
@@ -1179,12 +1182,12 @@ Slider
 	text-transform: uppercase;
 	font-size: 24px;
 	-webkit-transition: all 0.3s;
-	transition: all 0.3s;	
+	transition: all 0.3s;
 }
 .header-button:hover, .modal-button:hover {
 	background-color: #fff;
 	color: #2E2E2E;
-	text-decoration: none;	
+	text-decoration: none;
 }
 .header-button:hover > a {
 
@@ -1466,7 +1469,7 @@ Responsive
 	.employee:nth-of-type(3n+1),
 	.blog-post:nth-of-type(3n+1) {
 		clear: none;
-	}	
+	}
 	.service:nth-of-type(2n+1),
 	.employee:nth-of-type(2n+1),
 	.blog-post:nth-of-type(2n+1) {
@@ -1518,7 +1521,7 @@ Responsive
 	}
 	.main-navigation li:hover > a {
 			color: #fff;
-	}	
+	}
 	.main-navigation li:hover {
 		background-color: transparent;
 	}
@@ -1648,20 +1651,20 @@ Responsive
 	}
 	.service {
 		width: 100%;
-		padding: 30px 0;		
+		padding: 30px 0;
 	}
 	.blog-post,
 	.employee {
 		width: 100%;
-		padding: 15px 0;		
-	}	
+		padding: 15px 0;
+	}
 	.home.page section {
 		padding: 0 0 60px;
 	}
 	.so-panel.widget,
 	.panel.widget {
 		padding: 0 30px 60px;
-	}	
+	}
 	.section-desc {
 		margin-bottom: 30px;
 	}
@@ -1748,7 +1751,7 @@ Responsive
 
 /* Multi columns support */
 .container {
-  width: auto !important;	
+  width: auto !important;
 }
 .widget .container,
 section .container {
