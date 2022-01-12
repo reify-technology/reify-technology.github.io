@@ -136,7 +136,7 @@ Menus
 .main-navigation a {
 	display: block;
 	text-decoration: none;
-	color: #fff;
+	/* color: #323232; */
 	border: 2px solid #fff;
 	padding: 10px;
 }
@@ -178,15 +178,6 @@ Menus
 .main-navigation ul ul li {
 	text-align: left;
 	background-color: rgba(19, 19, 19, 0.8);
-}
-
-.main-navigation li a:hover {
-		color: #2E2E2E;
-}
-.main-navigation ul ul :hover > a {
-}
-
-.main-navigation ul ul a:hover {
 }
 
 .main-navigation ul li:hover > ul {
@@ -757,14 +748,14 @@ Structure
 .logo-image {
 	max-width: 200px;
 }
-.header-overlay {
+/* .header-overlay {
 	background-color: #000;
 	opacity: 0.7;
 	position: absolute;
 	width: 100%;
 	height: 100%;
 	z-index: -1;
-}
+} */
 .site-content {
 	margin-top: 60px;
 	padding: 0;
@@ -811,6 +802,17 @@ Structure
 .site-header.has-banner {
 	background-color: transparent;
 }
+
+/* custom panel styles */
+
+.panel-top-page-reify {
+	border-top: 2px solid #fff !important;
+}
+
+.panel-top-page-reify-black {
+	border-top: 2px solid #2e2e2e !important;
+}
+
 /* Page builder */
 .panel-grid {
 	margin: 0 !important;
@@ -1146,12 +1148,20 @@ Slider
   display: table;
   clear: both;
 }
+/* my changes */
+
+#rf-start-slider {
+	margin-top: 180px !important;
+}
+
+/* end of my changes */
 
 .overlay {
-	background-color: #111;
+	/* background-color: #111; */
 	opacity: 0.7;
 	position: absolute;
 	width: 100%;
+	height: 180px !important;
 	z-index: 3;
 }
 .site-header.active-slider {
