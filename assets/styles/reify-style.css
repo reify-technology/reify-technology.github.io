@@ -141,9 +141,9 @@ Menus
 	padding: 10px;
 }
 
-.main-navigation a:hover {
+/* .main-navigation a:hover {
 	background-color: #fff;
-}
+} */
 
 .main-navigation li:first-child a {
 	background-color: #fff;
@@ -177,7 +177,7 @@ Menus
 }
 .main-navigation ul ul li {
 	text-align: left;
-	background-color: rgba(19, 19, 19, 0.8);
+	/* background-color: rgba(19, 19, 19, 0.8); */
 }
 
 .main-navigation ul li:hover > ul {
