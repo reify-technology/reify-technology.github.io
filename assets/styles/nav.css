@@ -56,3 +56,9 @@ nav {
   nav.stroke ul li:first-child a:after {
     background: #fff;
   }
+
+  @media only screen and (max-width: 991px) {
+    nav.stroke ul li:first-child {
+      display: none !important;
+    }
+  }
