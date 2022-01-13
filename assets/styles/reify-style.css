@@ -1789,6 +1789,8 @@ section .container {
 
 .toggled {
 	z-index: 1000;
-	/* background-image: url("../images/pexels-photo.jpg"); */
 	background: linear-gradient(#FFF, 99%, #D3D3D3);
+}
+
+.container {
 }
