@@ -37,8 +37,7 @@ nav {
   nav.fill ul li a {
     position: relative;
   }
-  nav.stroke ul li a:after,
-  nav.fill ul li a:after {
+  nav.stroke ul li a:after {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -52,4 +51,8 @@ nav {
   }
   nav.stroke ul li a:hover:after {
     width: 100%;
+  }
+
+  nav.stroke ul li:first-child a:after {
+    background: #fff;
   }
